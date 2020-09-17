@@ -1,0 +1,271 @@
+/*Сброс CSS*/ 
+html, body, div, span, applet, object, iframe, button,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn,  img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, u,  center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, .asideContainer, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	word-wrap: break-word;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Сброс CSS*/
+
+/*common*/
+h1 {
+	font-family: Roboto;
+	font-size: 24px;
+	padding: 11px 0px;
+	color: #292929;
+}
+h2 {
+	font-family: Roboto;
+	font-size: 22px;
+	padding: 13px 0px;
+	color: #A52A2A;
+}
+h3 {
+	font-family: Roboto;
+	font-size: 20px;
+	padding: 11px 8px;
+	color: #292929;
+	
+}
+h4 {
+	font-family: Roboto;
+	font-size: 18px;
+	padding: 9px 0px;
+}
+
+h5 {
+	font-family: Roboto;
+	font-size: 18px;
+	padding: 7px 0px;
+	color: #908B70
+}
+h6 {
+	font-family: Roboto;
+	font-size: 16px;
+	padding: 5px 0px;
+	color: #908B70
+}
+code {
+	font-family: monospace;
+}
+pre {
+	
+	text-align: left;
+	font-family: Roboto;
+	font-size: 13px;
+	letter-spacing: 0.12em;
+}
+a {
+  color: #000;
+  text-decoration: none
+}
+
+
+dl {
+	text-align: left;
+	margin:0px 0px 0px 38px;
+}
+
+dt{
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	margin: 5px 0px 0px 0px; 
+}
+
+dd{
+	font-family: 'Times New Roman';
+	margin: 0px 0px 10px 25px; 
+}
+
+q {
+	font-size:15px;
+	color: #2E497C;
+}
+
+
+p {
+	text-align: left;
+	text-indent: 20px;
+	padding: 15px;
+}
+
+/* header */
+
+header,footer{
+	padding-top: 5px;
+	text-align: center;
+	clear: both;
+	height: 95px;
+	background: #2C75FF;
+}
+header img {
+	position: absolute;
+	width: 69px;
+	height: 69px;
+	left: 13px;
+	top: 13px;
+
+}
+header nav {
+	text-align: right;
+	min-width: 510px;
+	padding: 20px 75px 25px 0px;
+}
+
+header li{
+	display:inline-block;
+}
+
+#projectButton,
+#successButton,
+#gitHubButton {
+	margin-left: 13px;
+	/*Text*/
+	font-family: Roboto;
+	font-size: 18px;
+	
+	
+	/*Rectangle*/
+	padding: 12px 32px;
+	background: rgba(128, 128, 128, 0.5);
+	border-radius: 120px;
+}
+
+#gitHubButton {
+	color: #567BBF;
+	
+	background: #C4C4C4;
+	border: 2px solid #FFD700;
+}
+
+
+/*Main*/
+
+main {
+	margin: 25px 74px;
+}
+
+/*aside*/
+aside{
+	float: left;
+	text-align: center;
+}
+/*.asideContainer*/
+
+.asideContainer {
+	padding: 10px 0;
+	margin-bottom: 18px;
+	width: 255px;
+	background: #FFD700;
+	border: 4px solid #D3D3D3;
+}
+.asideContainer article {
+	background: #F4CE00;
+}
+#profile {
+	width: 80%;
+	padding: 20% 10%;
+	
+}
+.asideContainer hr {
+	border: 1px solid #D3D3D3;
+}
+
+
+.asideContainer li{
+	display: inline-block;
+	padding: 0px 6px 0px 0px;
+}
+
+.asideContainer article {
+	margin: 12px 0px 0px 0px;
+}
+
+
+
+/*Content*/
+.content {
+	padding-left: 255px; 
+}
+
+/*Section projects*/
+.content section{
+	min-width:245px;
+	margin: 0 0 18px 21px;
+	padding: 5px;
+	background-color:rgba(192, 192, 192, 0.7);
+	text-align: center;
+	vertical-align: top;
+}
+
+.glowingLink {
+	font-size: 110%;
+	margin: 5px;
+	background-color: #F4CE00;
+}
+
+.content article{
+	text-align: left;
+	margin: 18px 25px 18px 25px;
+	background-color: #C4C4C4;
+}
+
+
+#buttonLine {
+	height:60px;
+}
+
+#moreButton {
+	color: #567BBF;
+	font-size: 18px;
+	float: right;
+	width: 197.81px;	
+	padding:12px 0;
+	background: #C4C4C4;
+	margin-right: 25px;
+	border: 2px solid #FFD700;
+	box-sizing: border-box;
+	border-radius: 56px;
+}
+
+/*Footer*/
+footer ul {
+	text-align:right;
+	margin: 15px 75px;
+}
+
+.contact {
+	display:inline-block;
+	vertical-align: top;
+	padding: 3px;
+}
